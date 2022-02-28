@@ -1,0 +1,6 @@
+n = int(input("Enter No. of scores: "))
+scores = list(map(int,input("Enter Scores: ").split()))
+scores.sort()
+x = list(set(scores))
+print(x)
+print(x[-2])
