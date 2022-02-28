@@ -1,0 +1,4 @@
+x = input("Enter string: ")
+y = x.split(" ")
+y = "-".join(y)
+print(y)
