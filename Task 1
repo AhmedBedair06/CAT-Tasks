@@ -1,0 +1,8 @@
+x = int(input("Enter x:"))
+y = int(input("Enter y:"))
+z = int(input("Enter z:"))
+n = int(input("Enter n:"))
+a = 0
+b = 0
+c = 0
+print([[a,b,c] for a in range(0,x+1) for b in range(0,y+1) for c in range(0,z+1) if a + b + c != n])
