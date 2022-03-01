@@ -1,0 +1,14 @@
+count = 0
+problems = []
+n = int(input("Enter No. of problems: "))
+
+for i in range(n):
+    v = list(map(int,input('Enter Friends views: ').split()))
+    s = sum(v)
+    problems.append(s)
+
+for i in range(n):
+    if problems[i] >= 2:
+        count += 1
+
+print(count)
