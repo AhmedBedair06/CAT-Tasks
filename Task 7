@@ -1,0 +1,15 @@
+p = int(input("Enter No. of participants: "))
+l = int(input("Enter least place: "))
+scores = []
+winners = []
+print("Enter Scores")
+for i in range(p):
+    s = int(input())
+    scores.append(s)
+
+scores = list(set(scores))
+for i in range(len(scores)):
+    if i < (l-1):
+        winners.append(scores[i])
+
+print(len(winners))
