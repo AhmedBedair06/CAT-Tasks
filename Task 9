@@ -1,0 +1,17 @@
+x = 0
+statements = []
+n = int(input("Enter No. of Statements: "))
+
+for i in range(n):
+    st = input("Enter Statement: ")
+    statements.append(st)
+
+print(statements)
+
+for i in range(len(statements)):
+    if statements[i] == 'x++' or statements[i] == '++x':
+        x += 1
+    elif statements[i] == 'x--' or statements[i] == '--x':
+        x -= 1
+
+print(x)
