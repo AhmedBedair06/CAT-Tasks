@@ -1,0 +1,25 @@
+matrix = [1,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]
+count = 0
+x,y = 0,0
+for i in range(5):
+    for j in range(5):
+        if matrix[i][j] == 1:
+            x = i
+            y = j
+
+while x != 2:
+    if x<2:
+        x += 1
+        count += 1
+    if x>2:
+        x -= 1
+        count += 1
+while y != 2:
+    if y<2:
+        y += 1
+        count += 1
+    if y>2:
+        y -= 1
+        count += 1
+
+print("Number of moves: " +str(count))
