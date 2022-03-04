@@ -1,7 +1,7 @@
 n = int(input("Enter No. of scores: "))
 scores = []
 for i in range(n):
-    scr = int(input("Enter Score: ")
+    scr = int(input("Enter Score: "))
     scores.append(scr)
 scores.sort()
 x = list(set(scores))
