@@ -1,5 +1,9 @@
 n = int(input("Enter No. of Strings: "))
-strings = list(map(str,input("Enter strings: ").split()))
+strings = []
+for i in range(n):
+    str = input("Enter string: ")
+    strings.append(str)
+    
 
 for name in strings:
     if len(name) > 10:
