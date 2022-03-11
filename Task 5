@@ -1,7 +1,7 @@
-n = int(input("Enter No. of Strings: "))
+n = int(input())
 strings = []
 for i in range(n):
-    string = input("Enter string: ")
+    string = input()
     strings.append(string)
     
 
