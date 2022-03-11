@@ -1,9 +1,9 @@
 count = 0
 problems = []
-n = int(input("Enter No. of problems: "))
+n = int(input())
 
 for i in range(n):
-    v = list(map(int,input('Enter Friends views: ').split()))
+    v = list(map(int,input().split()))
     s = sum(v)
     problems.append(s)
 
