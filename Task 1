@@ -1,7 +1,7 @@
-x = int(input("Enter x:"))
-y = int(input("Enter y:"))
-z = int(input("Enter z:"))
-n = int(input("Enter n:"))
+x = int(input())
+y = int(input())
+z = int(input())
+n = int(input())
 a = 0
 b = 0
 c = 0
