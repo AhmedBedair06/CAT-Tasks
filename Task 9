@@ -1,12 +1,10 @@
 x = 0
 statements = []
-n = int(input("Enter No. of Statements: "))
+n = int(input())
 
 for i in range(n):
-    st = input("Enter Statement: ")
+    st = input()
     statements.append(st)
-
-print(statements)
 
 for i in range(len(statements)):
     if statements[i] == 'x++' or statements[i] == '++x':
