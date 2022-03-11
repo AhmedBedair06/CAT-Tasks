@@ -1,5 +1,4 @@
-l = int(input("Enter Length: "))
-w = int(input("Enter Width: "))
+l,w = map(int,input().split())
 a = l*w
 dominoes = int(a/2)
 print(dominoes)
