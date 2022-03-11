@@ -1,15 +1,10 @@
-p = int(input("Enter No. of participants: "))
-l = int(input("Enter least place: "))
-scores = []
-winners = []
-print("Enter Scores")
-for i in range(p):
-    s = int(input())
-    scores.append(s)
+p,l = map(int,input().split())
 
-scores = list(set(scores))
-for i in range(len(scores)):
-    if i < (l-1):
-        winners.append(scores[i])
+scores = list(map(int,input().split()))
+winners = []
+
+for score in scores :
+    if score > (l):
+        winners.append(score)
 
 print(len(winners))
