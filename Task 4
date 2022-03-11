@@ -1,4 +1,4 @@
-x = input("Enter string: ")
+x = input()
 y = x.split(" ")
 y = "-".join(y)
 print(y)
